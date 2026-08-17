@@ -1,17 +1,7 @@
-pipeline {
-  agent any
-
-    stage{
-    stage('complie'){
-      steps{
-        steps{
-        sh'javac Addition.java'
-          }
+import util.java
+  public class Hello World{
+  public Static void main(String args[])
+    {
+  system.out.println("hello.world");
     }
-    stage('Run'){
-      steps{
-        sh'java Addition'
-        }
-  }
-  }
   }
