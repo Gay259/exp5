@@ -4,7 +4,7 @@ stages{
 stage{
 stage('compile'){
 steps{
-sh'javac Addition.java'
+sh'javac HelloWorld.java'
 }
 }
 stage('Run'){
